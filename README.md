@@ -298,7 +298,7 @@ This article covers following things –
 
 - Use EF Core Power Tools in Coral.Employee.Persistance project
 
-    <img src="Images/41.PNG" width="80%">
+    <img src="Images/41.png" width="80%">
 
 <br />
 
