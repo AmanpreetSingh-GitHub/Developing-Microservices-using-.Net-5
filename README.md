@@ -51,7 +51,7 @@ This article covers following things –
 
 - We are using Microsoft Visual Studio Enterprise 2019 with Version 16.10.2
 
-    <img src="Images/0.png" width="80%">
+    <img src="Images/0.PNG" width="80%">
 
 <br />
 
@@ -61,52 +61,52 @@ This article covers following things –
 
 - Create a blank solution (Coral) to contain all the projects
 
-    <img src="Images/1.png" width="80%">
-    <img src="Images/2.png" width="80%">
+    <img src="Images/1.PNG" width="80%">
+    <img src="Images/2.PNG" width="80%">
 
 <br />
 
 - Add a new ASP.Net Core Web API project (Coral.Employee.Api) targetting .NET 5.0 framework
 
-    <img src="Images/3.png" width="80%">
-    <img src="Images/4.png" width="80%">
-    <img src="Images/5.png" width="80%">
-    <img src="Images/6.png" width="80%">
+    <img src="Images/3.PNG" width="80%">
+    <img src="Images/4.PNG" width="80%">
+    <img src="Images/5.PNG" width="80%">
+    <img src="Images/6.PNG" width="80%">
 
 <br />
 
 - Add a Class Library project (Coral.Employee.Service) targetting .NET 5.0 framework
 
-    <img src="Images/7.png" width="80%">
-    <img src="Images/8.png" width="80%">
-    <img src="Images/9.png" width="80%">
-    <img src="Images/10.png" width="80%">
+    <img src="Images/7.PNG" width="80%">
+    <img src="Images/8.PNG" width="80%">
+    <img src="Images/9.PNG" width="80%">
+    <img src="Images/10.PNG" width="80%">
 
 <br />
 
 - Add a Class Library project (Coral.Employee.Domain) targetting .NET 5.0 framework
 
-    <img src="Images/11.png" width="80%">
-    <img src="Images/12.png" width="80%">
-    <img src="Images/13.png" width="80%">
-    <img src="Images/14.png" width="80%">
+    <img src="Images/11.PNG" width="80%">
+    <img src="Images/12.PNG" width="80%">
+    <img src="Images/13.PNG" width="80%">
+    <img src="Images/14.PNG" width="80%">
 
 <br >
 
 - Add a Class Library project (Coral.Employee.Persistance) targetting .NET 5.0 framework
 
-    <img src="Images/15.png" width="80%">
-    <img src="Images/16.png" width="80%">
-    <img src="Images/17.png" width="80%">
-    <img src="Images/18.png" width="80%">
+    <img src="Images/15.PNG" width="80%">
+    <img src="Images/16.PNG" width="80%">
+    <img src="Images/17.PNG" width="80%">
+    <img src="Images/18.PNG" width="80%">
 
 <br />
 
 - Add a Class Library project (Coral.Employee.Broker) targetting .NET 5.0 framework
 
-    <img src="Images/19.png" width="80%">
-    <img src="Images/20.png" width="80%">
-    <img src="Images/21.png" width="80%">
+    <img src="Images/19.PNG" width="80%">
+    <img src="Images/20.PNG" width="80%">
+    <img src="Images/21.PNG" width="80%">
 
 <br />
 
@@ -120,25 +120,25 @@ This article covers following things –
 
 - Add Coral.Employee.Service reference in Coral.Employee.Api project
 
-    <img src="Images/22.png" width="80%">
+    <img src="Images/22.PNG" width="80%">
 
 <br />
 
 - Add Coral.Employee.Persistance and Coral.Employee.Domain reference in Coral.Employee.Broker project
 
-    <img src="Images/23.png" width="80%">
+    <img src="Images/23.PNG" width="80%">
 
 <br />
 
 - Add Coral.Employee.Broker, Coral.Employee.Persistance and Coral.Employee.Domain reference in Coral.Employee.Service project
 
-    <img src="Images/24.png" width="80%">
+    <img src="Images/24.PNG" width="80%">
 
 <br />
 
 - Build the solution
 
-    <img src="Images/25.png" width="80%">
+    <img src="Images/25.PNG" width="80%">
 
 <br />
 
@@ -148,7 +148,7 @@ This article covers following things –
 
 - Add Employee folder and move Coral.Employee.Api, Coral.Employee.Service, Coral.Employee.Broker, Coral.Employee.Persistance and Coral.Employee.Domain projects inside Employee folder
 
-    <img src="Images/26.png" width="80%">
+    <img src="Images/26.PNG" width="80%">
 
 <br />
 
@@ -198,21 +198,21 @@ This article covers following things –
 
 - Add a Class Library project (Coral.Infrastructure.CrossCutting) targetting .NET 5.0 framework inside Infrastructure folder. This project will hold data and logic that is used across projects
 
-    <img src="Images/27.png" width="80%">
-    <img src="Images/28.png" width="80%">
-    <img src="Images/29.png" width="80%">
+    <img src="Images/27.PNG" width="80%">
+    <img src="Images/28.PNG" width="80%">
+    <img src="Images/29.PNG" width="80%">
 
 <br />
 
 - Add Coral.Infrastructure.CrossCutting reference also in Coral.Employee.Service project
 
-    <img src="Images/30.png" width="80%">
+    <img src="Images/30.PNG" width="80%">
 
 <br />
 
 - Add Coral.Infrastructure.CrossCutting reference also in Coral.Employee.Broker project
 
-    <img src="Images/31.png" width="80%">
+    <img src="Images/31.PNG" width="80%">
 
 <br />
 
@@ -222,23 +222,22 @@ This article covers following things –
 
 - Create new resource group (coral) in Azure
 
-    <img src="Images/32.png" width="80%">
+    <img src="Images/32.PNG" width="80%">
 
 <br />
 
 - Create a new Aure SQL Database Server (coraldbserver) to hold Azure SQL Database
 
-    <img src="Images/33.png" width="80%">
-    <img src="Images/34.png" width="80%">
-    <img src="Images/35.png" width="80%">
+    <img src="Images/33.PNG" width="80%">
+    <img src="Images/34.PNG" width="80%">
+    <img src="Images/35.PNG" width="80%">
 
 <br />
 
 - Create a new Azure SQL Database (Employee)
 
-    <img src="Images/36.png" width="80%">
-    <img src="Images/37.png" width="80%">
-    <img src="Images/38.png" width="80%">
+    <img src="Images/36.PNG" width="80%">
+    <img src="Images/38.PNG" width="80%">
 
 <br />
 
@@ -299,31 +298,31 @@ This article covers following things –
 
 - Use EF Core Power Tools in Coral.Employee.Persistance project
 
-    <img src="Images/41.png" width="80%">
+    <img src="Images/41.PNG" width="80%">
 
 <br />
 
 - Connect to Azure SQL Employee Database
 
-    <img src="Images/42.png" width="80%">
-    <img src="Images/43.png" width="80%">
+    <img src="Images/42.PNG" width="80%">
+    <img src="Images/43.PNG" width="80%">
 
 <br />
 
 - Select EmployeeBasicInfo table
-    <img src="Images/44.png" width="80%">
+    <img src="Images/44.PNG" width="80%">
 
 <br />
 
 - Setup parameters
 
-    <img src="Images/45.png" width="80%">
+    <img src="Images/45.PNG" width="80%">
 
 <br />
 
 - Build the solution
 
-    <img src="Images/46.png" width="80%">
+    <img src="Images/46.PNG" width="80%">
 
 <br />
 
@@ -557,17 +556,17 @@ This article covers following things –
 	>		services.AddDbContext<EmployeeDBContext>
 	>		(
 	>		   options => options.UseSqlServer(
-	>											   "Data Source=tcp:coraldbserver.database.windows.net,1433;Initial Catalog=Employee;User ID=coraldbserver;Password=P@ssword12!;Persist Security Info=True;",
-	>											   builder => builder.EnableRetryOnFailure(3, TimeSpan.FromSeconds(5), null)
-	>										  ),
-	>		   ServiceLifetime.Singleton
+	>						"Data Source=xxxxxxxxxxxxxxx;Initial Catalog=Employee;User ID=xxxxxxxx;Password=xxxxxxxx;Persist Security Info=True;",
+	>						builder => builder.EnableRetryOnFailure(3, TimeSpan.FromSeconds(5), null)
+	>							  ),
+	>		ServiceLifetime.Singleton
 	>		);
 
 <br />
 
 - Build the solution
 
-    <img src="Images/53.png" width="80%">
+    <img src="Images/53.PNG" width="80%">
 
 <br />
 
@@ -577,7 +576,7 @@ This article covers following things –
 
 - Add MediatR NuGet package to Coral.Employee.Broker project
 
-    <img src="Images/55.png" width="80%">
+    <img src="Images/55.PNG" width="80%">
 
 <br />
 
@@ -733,7 +732,7 @@ This article covers following things –
 
 - Build the solution
 
-    <img src="Images/63.png" width="80%">
+    <img src="Images/63.PNG" width="80%">
 
 <br />
 
@@ -743,7 +742,7 @@ This article covers following things –
 
 - Add MediatR.Extensions.Microsoft.DependencyInjection NuGet package to Coral.Employee.Api project
 
-    <img src="Images/66.png" width="80%">
+    <img src="Images/66.PNG" width="80%">
 
 <br />
 
@@ -823,7 +822,7 @@ This article covers following things –
 
 - Build the solution
 
-    <img src="Images/69.png" width="80%">
+    <img src="Images/69.PNG" width="80%">
 
 <br />
 
@@ -833,4 +832,4 @@ This article covers following things –
 
 - Run the project and call /api/EmployeeBasicInfo/all route
 
-    <img src="Images/70.png" width="80%">
+    <img src="Images/70.PNG" width="80%">
