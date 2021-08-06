@@ -8,7 +8,7 @@ This article is the second part of series covering planning, solutioning, design
 
 <br />
 
-- [Planning Microservices using Domain Driven Design](https://github.com/AmanpreetSingh-GitHub/Planning-Microservices-using-Domain-Driven-Design)
+- [Planning and  Solutioning Microservices using Domain Driven Design](https://github.com/AmanpreetSingh-GitHub/Planning-and-Solutioning-Microservices-using-Domain-Driven-Design)
 - Developing Microservices using .Net 5
 - [Deploying-Microservices to Azure Kubernetes Services](https://github.com/AmanpreetSingh-GitHub/Deploying-Microservices-to-Azure-Kubernetes-Services)
 - [Inter Microservices communication using Azure Service Bus](https://github.com/AmanpreetSingh-GitHub/Inter-Microservices-communication-using-Azure-Service-Bus)
